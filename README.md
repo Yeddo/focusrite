@@ -1,5 +1,5 @@
 # focusrite
-Audio fix for driver not responding
+Windows audio fix for driver not responding
 
 # description
 Until Microsoft pushes a fix for the wakeup handshake, or Focusrite updates Focusrite Control 2 to support Build 26200's new audio sleep states, this automation bypasses the bug. Your computer will reset the audio engine in the background before your display comes up.
