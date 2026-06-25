@@ -1,6 +1,9 @@
 # focusrite
 Windows audio fix for driver not responding
 
+# why ...
+Microsoft altered the audio architecture specifically for versions 24H2 and 25H2 (which includes Build 26200). "Starting from Windows 11 version 24H2, audio playback is not supported when standby is entered explicitly (power button press, lid close, or through the Start menu). Audio playback is only supported when idling to screen off."
+
 # description
 Until Microsoft pushes a fix for the wakeup handshake, or Focusrite updates Focusrite Control 2 to support Build 26200's new audio sleep states, this automation bypasses the bug. Your computer will reset the audio engine in the background before your display comes up.
 
